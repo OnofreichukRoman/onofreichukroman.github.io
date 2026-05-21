@@ -125,10 +125,14 @@ header.privacy-hero h1 {
   color: var(--text);
 }
 
-.hero-card a,
-.card a,
-.contact-card a,
-.policy-content a {
+.hero-card,
+.hero-card h2,
+.hero-card p,
+.hero-card a {
+  color: var(--text);
+}
+
+.hero-card a {
   color: var(--primary);
 }
 
